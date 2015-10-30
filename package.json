@@ -1,0 +1,41 @@
+{
+  "name": "ec2-router",
+  "version": "0.0.1",
+  "description": "Utility for setting up static routes to EC2 public addresses",
+  "scripts": {
+    "preversion": "npm test",
+    "prepublish": "babel --out-dir build lib",
+    "start": "node .",
+    "test": "eslint ."
+  },
+  "bin": {
+    "ec2-router": "bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/building5/ec2-router.git"
+  },
+  "keywords": [
+    "amazon",
+    "aws",
+    "ec2"
+  ],
+  "author": "David M. Lee, II",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/building5/ec2-router/issues"
+  },
+  "homepage": "https://github.com/building5/ec2-router#readme",
+  "dependencies": {
+    "async": "^1.5.0",
+    "aws-sdk": "^2.2.12",
+    "babel": "^5.8.29",
+    "commander": "^2.9.0",
+    "lodash": "^3.10.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^4.1.3",
+    "eslint": "^1.7.3",
+    "eslint-config-airbnb": "^0.1.0"
+  }
+}
