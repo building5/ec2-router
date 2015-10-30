@@ -55,8 +55,8 @@ $ sudo AWS_ACCESS_KEY_ID=*** AWS_SECRET_ACCESS_KEY=*** ec2-router
 
 ## Special Thanks
 
-I'd like to say thanks to [Dan Jenkins][] for the initial script that this one
-is based on.
+Special thanks to [Dan Jenkins][] for the initial script that this one is based
+on.
 
  [Dan Jenkins]: https://github.com/danjenkins
 
