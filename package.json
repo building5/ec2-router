@@ -1,6 +1,6 @@
 {
   "name": "ec2-router",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility for setting up static routes to EC2 public addresses",
   "scripts": {
     "preversion": "npm test",
