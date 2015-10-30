@@ -13,8 +13,10 @@ But, really, you should setup a VPN.
 
 ## Usage
 
-    $ npm install -g ec2-router
-    $ sudo ec2-router
+```bash
+$ npm install -g ec2-router
+$ sudo ec2-router
+```
 
 ## Credentials
 
@@ -25,21 +27,31 @@ credentials.
 
  * `~/.aws/credentials`
 
-    # Can be configured manually, or using aws configure
-    [default]
-    aws_access_key_id = ***
-    aws_secret_access_key = ***
+```
+# Can be configured manually, or using aws configure
+[default]
+aws_access_key_id = ***
+aws_secret_access_key = ***
+```
 
  * Environment Variables
 
-    $ sudo AWS_ACCESS_KEY_ID=*** AWS_SECRET_ACCESS_KEY=*** ec2-router
+```
+$ sudo AWS_ACCESS_KEY_ID=*** AWS_SECRET_ACCESS_KEY=*** ec2-router
+```
 
 ## Command Options
 
-    --dry-run               Print the commands it would execute, but do not
-                            execute them
-    --regions=REGION[,...]  Comma separated list of regions to query
-                            Defaults to default all regions
+```
+    --verbose                 Print additional details
+    --dry-run                 Print the commands it would execute, but do not
+                              execute them
+    --delete                  Delete routes to EC2 instances instead of adding
+                              them
+    --dest [-interface tun0]  Specify the route destination
+    --regions [regions]       Comma separated list of regions to query. Defaults
+                              to default all regions
+```
 
 ## Special Thanks
 
