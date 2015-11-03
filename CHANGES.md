@@ -1,6 +1,6 @@
 # ec2-router changelog
 
-## v1.0.2 (2015-10-30)
+## v1.0.2 (2015-11-03)
 
  * Fixed host routes on Linux
 
