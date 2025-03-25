@@ -1,5 +1,8 @@
 # ec2-router
 
+> [!CAUTION]
+> These scripts are a bad idea, and no longer maintained. Really, setup a VPN.
+
 When starting out with Amazon EC2, it usually easier to start using IP based
 restrictions instead of doing the "Right Thing™" and setting up a VPN between
 your network and your VPCs.
